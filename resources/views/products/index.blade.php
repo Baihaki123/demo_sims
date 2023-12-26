@@ -39,7 +39,6 @@
             <option value="{{ $category->id }}">{{ $category->name }}</option>
         @endforeach
     </select>
-    <button type="submit" onclick="exportExcel()" class="btn btn-success ml-3 col-md-2">Export Excel</button>
     </div>
     <div class="card-body">
         <div class="table-responsive">

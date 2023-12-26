@@ -311,7 +311,7 @@
         <footer class="sticky-footer bg-white">
             <div class="container my-auto">
                 <div class="copyright text-center my-auto">
-                    <span>Copyright &copy; Alejandro RH {{ now()->year }}</span>
+                    <span>Copyright &copy; SBADMIN2 {{ now()->year }}</span>
                 </div>
             </div>
         </footer>
@@ -446,9 +446,7 @@
             searching: true,
             bDestroy: true,
             dom: 'Bfrtip',
-            buttons: [
-                'excel'
-            ],
+            buttons: ['copy', 'csv', 'excel', 'pdf', 'print'],
             ajax: {
                 url: urlData,
                 type: 'POST',
